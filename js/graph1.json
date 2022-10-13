@@ -13,7 +13,7 @@
         "lookup": "properties.NAME",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/chrislou415/homework923/main/New-Country_vaccinations_working.csv"
+            "url": "https://raw.githubusercontent.com/chrislou415/Assignment2-Critique/main/data/Vaccination_Numbers.csv"
           },
           "key": "country",
           "fields": ["daily_vaccinations_per_million"]
