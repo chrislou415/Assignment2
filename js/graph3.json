@@ -1,0 +1,15 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Stock prices of 5 Tech Companies over Time.",
+  "data": {"url": "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv"},  
+  
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {"field": "location","type": "nominal"},
+    "y": {"field": "total_vaccinations", "type": "quantitative"},
+    "color": {"field": "date", "type": "nominal"}
+  }
+}
